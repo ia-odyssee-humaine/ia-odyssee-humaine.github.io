@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Illustrations sonores — IA : une odyssée humaine</title>
+<meta name="description" content="Les quatorze morceaux qui donnent leur titre aux chapitres du livre de Sandy Razafitrimo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --papier:#E6E5E0;
+    --noir:#000000;
+    --rouge:#D0021B;
+    --gris:#6E6D68;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--papier);
+    color:var(--noir);
+    font-family:'Jost',system-ui,sans-serif;
+    font-weight:400;
+    line-height:1.45;
+    padding:0 6vw 6rem;
+  }
+  .wrap{max-width:62rem;margin:0 auto}
+
+  /* ---------- bandeau ---------- */
+  header{padding:5rem 0 3.5rem}
+  .marque{
+    display:inline-block;
+    background:var(--rouge);
+    color:var(--papier);
+    font-weight:700;
+    font-size:.82rem;
+    letter-spacing:.14em;
+    padding:.35rem .7rem .3rem;
+    margin-bottom:2.2rem;
+  }
+  h1{
+    font-weight:700;
+    font-size:clamp(2.6rem,8vw,5.4rem);
+    line-height:.94;
+    letter-spacing:-.02em;
+    max-width:14ch;
+  }
+  h1 em{font-style:normal;color:var(--rouge)}
+  .auteur{
+    font-weight:500;
+    font-size:clamp(1rem,2.4vw,1.35rem);
+    margin-top:1.4rem;
+    letter-spacing:.02em;
+  }
+  .chapo{
+    margin-top:2.4rem;
+    max-width:46ch;
+    font-weight:300;
+    font-size:clamp(1rem,2vw,1.15rem);
+    color:var(--gris);
+  }
+
+  /* ---------- parties ---------- */
+  .partie{border-top:3px solid var(--noir);padding-top:.6rem;margin-top:3.2rem}
+  .partie:first-of-type{margin-top:1rem}
+  .partie h2{
+    font-weight:700;
+    font-size:.95rem;
+    letter-spacing:.2em;
+    color:var(--rouge);
+    margin-bottom:.4rem;
+  }
+
+  /* ---------- morceaux ---------- */
+  a.piste{
+    display:grid;
+    grid-template-columns:3.2rem 1fr;
+    gap:0 1rem;
+    align-items:baseline;
+    text-decoration:none;
+    color:inherit;
+    padding:1.1rem .8rem 1.1rem .4rem;
+    border-bottom:1px solid rgba(0,0,0,.14);
+  }
+  a.piste:last-child{border-bottom:0}
+  .num{
+    font-weight:300;
+    font-size:1.5rem;
+    color:var(--gris);
+    font-variant-numeric:tabular-nums;
+  }
+  .titre{
+    font-weight:500;
+    font-size:clamp(1.25rem,3.4vw,1.85rem);
+    line-height:1.12;
+    letter-spacing:-.01em;
+  }
+  .artiste{
+    font-weight:400;
+    font-size:.95rem;
+    color:var(--gris);
+    margin-top:.3rem;
+  }
+  .chapitre{
+    font-weight:300;
+    font-size:1rem;
+    margin-top:.5rem;
+    max-width:44ch;
+  }
+
+  a.piste:hover,a.piste:focus-visible{
+    background:var(--rouge);
+    color:var(--papier);
+    outline:none;
+  }
+  a.piste:hover .num,a.piste:focus-visible .num,
+  a.piste:hover .artiste,a.piste:focus-visible .artiste{color:var(--papier)}
+  a.piste:focus-visible{box-shadow:0 0 0 3px var(--noir) inset}
+
+  /* ---------- pied ---------- */
+  footer{
+    margin-top:4.5rem;
+    border-top:3px solid var(--noir);
+    padding-top:1.4rem;
+    font-weight:300;
+    font-size:.92rem;
+    color:var(--gris);
+    max-width:52ch;
+  }
+  footer p+p{margin-top:.9rem}
+  footer a{color:var(--noir)}
+
+  @media (max-width:34rem){
+    a.piste{grid-template-columns:2.2rem 1fr;gap:0 .7rem}
+    .num{font-size:1.1rem}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="marque">ILLUSTRATIONS SONORES</span>
+  <h1>IA : une <em>odyssée</em> humaine</h1>
+  <p class="auteur">Sandy Razafitrimo</p>
+  <p class="chapo">Quatorze morceaux donnent leur titre aux chapitres de ce livre. Les voici, dans l'ordre de lecture. Chaque titre ouvre la vidéo officielle.</p>
+</header>
+
+<main>
+
+<section class="partie">
+  <h2>PRÉLUDE</h2>
+  <a class="piste" href="new-life/">
+    <span class="num">01</span>
+    <span>
+      <span class="titre">New Life</span>
+      <span class="artiste">Depeche Mode · 1981</span>
+      <span class="chapitre">Les illusions perdues</span>
+    </span>
+  </a>
+</section>
+
+<section class="partie">
+  <h2>LE DIAGNOSTIC</h2>
+  <a class="piste" href="destination-unknown/">
+    <span class="num">02</span>
+    <span>
+      <span class="titre">Destination Unknown</span>
+      <span class="artiste">Missing Persons · 1982</span>
+      <span class="chapitre">Les mots du voyage</span>
+    </span>
+  </a>
+  <a class="piste" href="computer-world/">
+    <span class="num">03</span>
+    <span>
+      <span class="titre">Computer World</span>
+      <span class="artiste">Kraftwerk · 1981</span>
+      <span class="chapitre">Une brève histoire de l'IA</span>
+    </span>
+  </a>
+  <a class="piste" href="rule-the-world/">
+    <span class="num">04</span>
+    <span>
+      <span class="titre">Everybody Wants to Rule the World</span>
+      <span class="artiste">Tears for Fears · 1985</span>
+      <span class="chapitre">Le monde invisible</span>
+    </span>
+  </a>
+</section>
+
+<section class="partie">
+  <h2>LE POUVOIR</h2>
+  <a class="piste" href="technologic/">
+    <span class="num">05</span>
+    <span>
+      <span class="titre">Technologic</span>
+      <span class="artiste">Daft Punk · 2005</span>
+      <span class="chapitre">Infrastructures et domination</span>
+    </span>
+  </a>
+  <a class="piste" href="man-machine/">
+    <span class="num">06</span>
+    <span>
+      <span class="titre">The Man Machine</span>
+      <span class="artiste">Kraftwerk · 1978</span>
+      <span class="chapitre">Le fantasme du transhumaniste</span>
+    </span>
+  </a>
+</section>
+
+<section class="partie">
+  <h2>LE VIVANT</h2>
+  <a class="piste" href="all-is-full-of-love/">
+    <span class="num">07</span>
+    <span>
+      <span class="titre">All Is Full of Love</span>
+      <span class="artiste">Björk · 1997</span>
+      <span class="chapitre">Quand les frontières se dissolvent</span>
+    </span>
+  </a>
+  <a class="piste" href="its-only-mystery/">
+    <span class="num">08</span>
+    <span>
+      <span class="titre">It's Only Mystery</span>
+      <span class="artiste">Éric Serra · 1988</span>
+      <span class="chapitre">Ce qui nous rend unique</span>
+    </span>
+  </a>
+</section>
+
+<section class="partie">
+  <h2>LE SACRÉ</h2>
+  <a class="piste" href="break-on-through/">
+    <span class="num">09</span>
+    <span>
+      <span class="titre">Break On Through (To the Other Side)</span>
+      <span class="artiste">The Doors · 1967</span>
+      <span class="chapitre">Franchir le seuil</span>
+    </span>
+  </a>
+  <a class="piste" href="monkey-gone-to-heaven/">
+    <span class="num">10</span>
+    <span>
+      <span class="titre">Monkey Gone to Heaven</span>
+      <span class="artiste">Pixies · 1989</span>
+      <span class="chapitre">Mythes et récits de la transformation</span>
+    </span>
+  </a>
+</section>
+
+<section class="partie">
+  <h2>LE CHAOS</h2>
+  <a class="piste" href="heaven-knows/">
+    <span class="num">11</span>
+    <span>
+      <span class="titre">Heaven Knows</span>
+      <span class="artiste">The Pretty Reckless · 2014</span>
+      <span class="chapitre">Face à l'abîme du chaos</span>
+    </span>
+  </a>
+  <a class="piste" href="the-winner-is/">
+    <span class="num">12</span>
+    <span>
+      <span class="titre">The Winner Is</span>
+      <span class="artiste">DeVotchKa et Mychael Danna · 2006</span>
+      <span class="chapitre">La voie du chaos</span>
+    </span>
+  </a>
+</section>
+
+<section class="partie">
+  <h2>L'OUVERTURE</h2>
+  <a class="piste" href="good-morning-starshine/">
+    <span class="num">13</span>
+    <span>
+      <span class="titre">Good Morning Starshine</span>
+      <span class="artiste">Galt MacDermot et Tom Pierson · 1967</span>
+      <span class="chapitre">Les chemins du vivant numérique</span>
+    </span>
+  </a>
+  <a class="piste" href="gigantic/">
+    <span class="num">14</span>
+    <span>
+      <span class="titre">Gigantic</span>
+      <span class="artiste">Pixies · 1988</span>
+      <span class="chapitre">Fin de l'odyssée</span>
+    </span>
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <p>Cette page n'héberge aucun enregistrement. Elle renvoie vers les chaînes officielles des artistes et de leurs labels.</p>
+  <p>Les liens sont vérifiés une fois par an. Si l'un d'eux ne répond plus, écrivez-moi et je le remplace : les codes déjà imprimés continueront de fonctionner.</p>
+</footer>
+
+</div>
+</body>
+</html>
